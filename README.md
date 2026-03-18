@@ -40,17 +40,15 @@ cd AI-TRIAGE-ASSISTENT01
 
 Virtual Environment Banayein (Optional):
 
-Bash
+1.Bash
 python -m venv venv
 source venv/bin/activate  # Windows ke liye: venv\Scripts\activate
 
-Dependencies Install Karein:
-
+2.Dependencies Install Karein:
 Bash
 pip install -r requirements.txt
 
-App Run Karein:
-
+3.App Run Karein:
 Bash
 python app.py
 
@@ -64,8 +62,3 @@ Usage
 4.AI model aapko urgency level aur recommended next steps dikhayega.
 
 Developed by Srihanshkumar
-
-
-### T:
-- Agar aapne koi specific library use ki hai (jaise Streamlit ya Flask), toh `app.py` ki jagah uska naam likh dein.
-- `requirements.txt` file zaroor banayein taaki dusre log ise asani se run kar sakein.
